@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="c055d7fc-6d4d-42d8-afdf-57fd34a34dd0" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="getCaseDetails TestCase" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="c055d7fc-6d4d-42d8-afdf-57fd34a34dd0fileName">getCaseDetails-TestCase</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="request" id="118afd11-e6e3-4af6-a56a-cf191168b93f" name="getCaseDetails"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ClientInquiryService</con:interface><con:operation>getCaseDetails</con:operation><con:request name="getCaseDetails" id="6ed63d04-ed89-46d2-a387-6683be50a610"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:9080/EAServicesEJB3HttpRouter/ClientInquiryService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://impl.clientinquiry.ews.hhs.state.tx.us/ClientInquiryService" xmlns:mes="http://impl.clientinquiry.ews.hhs.state.tx.us/messages">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <cli:getCaseDetails>\r
+         <request>\r
+            <!--Optional:-->\r
+            <mes:caseNum>?</mes:caseNum>\r
+         </request>\r
+      </cli:getCaseDetails>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig action="http://impl.clientinquiry.ews.hhs.state.tx.us/getCaseDetails"/></con:request></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

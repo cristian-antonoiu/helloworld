@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="1e761f2d-94a6-448a-874d-a64e5ed02189" name="ClientInquiryService TestSuite" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="1e761f2d-94a6-448a-874d-a64e5ed02189fileName">ClientInquiryService-TestSuite</con:setting></con:settings><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/></con:testSuite>

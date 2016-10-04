@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="2a1f3354-afbd-4cd2-83a1-fa5a7afa87a4" isOneWay="false" action="http://impl.clientinquiry.ews.hhs.state.tx.us/searchCaseIndividual" name="searchCaseIndividual" bindingOperationName="searchCaseIndividual" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="2a1f3354-afbd-4cd2-83a1-fa5a7afa87a4fileName">searchCaseIndividual</con:setting></con:settings><con:call id="a846587e-9f27-4500-938c-f1bcb87cfbf9" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:9080/EAServicesEJB3HttpRouter/ClientInquiryService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://impl.clientinquiry.ews.hhs.state.tx.us/ClientInquiryService" xmlns:mes="http://impl.clientinquiry.ews.hhs.state.tx.us/messages">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <cli:searchCaseIndividual>\r
+         <request>\r
+            <mes:caseIndvSearchType>\r
+               <!--Optional:-->\r
+               <mes:dob>?</mes:dob>\r
+               <!--Optional:-->\r
+               <mes:gender>?</mes:gender>\r
+               <!--Optional:-->\r
+               <mes:ssn>?</mes:ssn>\r
+               <!--Optional:-->\r
+               <mes:indvId>?</mes:indvId>\r
+               <!--Optional:-->\r
+               <mes:firstName>?</mes:firstName>\r
+               <!--Optional:-->\r
+               <mes:lastName>?</mes:lastName>\r
+               <!--Optional:-->\r
+               <mes:midName>?</mes:midName>\r
+               <!--Optional:-->\r
+               <mes:caseNum>?</mes:caseNum>\r
+               <!--Optional:-->\r
+               <mes:county>?</mes:county>\r
+               <!--Optional:-->\r
+               <mes:edgNum>?</mes:edgNum>\r
+               <!--Optional:-->\r
+               <mes:fileClearanceType>?</mes:fileClearanceType>\r
+            </mes:caseIndvSearchType>\r
+         </request>\r
+      </cli:searchCaseIndividual>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://impl.clientinquiry.ews.hhs.state.tx.us/searchCaseIndividual"/></con:call></con:operation>

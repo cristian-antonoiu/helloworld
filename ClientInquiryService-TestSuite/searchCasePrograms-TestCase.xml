@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="553900b0-2ba1-42d7-9c3a-40eeea5157bd" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="searchCasePrograms TestCase" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="553900b0-2ba1-42d7-9c3a-40eeea5157bdfileName">searchCasePrograms-TestCase</con:setting></con:settings><con:testStep type="request" id="6bcae930-30cc-4ca4-9750-783298ccf587" name="searchCasePrograms"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ClientInquiryService</con:interface><con:operation>searchCasePrograms</con:operation><con:request name="searchCasePrograms" id="c618d5cf-d6dd-4edb-ba72-1cff64bd37c9"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:9080/EAServicesEJB3HttpRouter/ClientInquiryService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://impl.clientinquiry.ews.hhs.state.tx.us/ClientInquiryService" xmlns:mes="http://impl.clientinquiry.ews.hhs.state.tx.us/messages">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <cli:searchCasePrograms>\r
+         <request>\r
+            <mes:caseNum>?</mes:caseNum>\r
+         </request>\r
+      </cli:searchCasePrograms>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig action="http://impl.clientinquiry.ews.hhs.state.tx.us/searchCasePrograms"/></con:request></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>
